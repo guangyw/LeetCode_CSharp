@@ -6,6 +6,27 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
+            var zipzag = ZigZag.Convert("gtvsruapegkjfpxheeneviubicjexfofymxqizfohqymhxuobjuytqzctkgqpvvohugrvnfcfdopakdct", 27);
+            var matrix2 = new int[,]
+            {
+                {2, 5},
+                {8, 4},
+                {0, -1}
+            };
+
+            var matrix = new int[,]
+            {
+                {2, 3}
+            };
+
+            var output = SpiralMatrix.SpiralOrder(matrix);
+
+            var board = new int[,]
+            {
+                {1, 1},
+                {1, 0}
+            };
+            GameOfLife.NextBoard(board);
             var minWindow = MinimumWindowSubstring.MinWindow("bba", "ab");
             var maxPoints = MaxPointsOnALine.MaxPoints(new Point[]
             {
