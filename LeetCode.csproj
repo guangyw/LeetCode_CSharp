@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BinaryTreeTraverse.cs" />
+    <Compile Include="FactorCombinations.cs" />
     <Compile Include="FindMinimumInRotatedSortedArray.cs" />
     <Compile Include="GameOfLife.cs" />
     <Compile Include="IsomorphicStrings.cs" />
